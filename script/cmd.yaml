@@ -1,0 +1,10 @@
+singleuser:
+  storage:
+    dynamic:
+      storageClass: managed-csi
+  image:
+    name: jupyter/datascience-notebook
+    tag: latest
+proxy:
+  service:
+    loadBalancerIP: xxx.xxx.xxx.xxx
